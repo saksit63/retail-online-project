@@ -32,24 +32,23 @@ default_args = {
     'catchup': False,
     'start_date': days_ago(1),
     'retries': 1,
-    'retry_delay': timedelta(minutes=1),
-    'execution_timeout': timedelta(minutes=30),
+    'retry_delay': timedelta(minutes=5),
 }
 
 with DAG(
     dag_id='retail_pipeline',
     default_args=default_args, 
-    schedule_interval=None,
+    schedule_interval="@daily",
     tags=['project', 'retail']
 ) as dag:
 
     upload_csv_to_gcs = LocalFilesystemToGCSOperator(
         task_id = 'upload_csv_to_gcs',
-        src="/home/airflow/dataset/retail.csv", #พาธที่อ้างอิงไปยังไฟล์ที่ต้องการย้ายจาก Local filesystem
-        dst='raw/retail.csv', #ชื่อของ Object ใน Google Cloud Storage ที่ต้องการเก็บไฟล์
-        bucket= GCP_BUCKET_NAME, #คือชื่อ Bucket ที่ต้องการให้ไฟล์ถูกบันทึกใน GCS
-        gcp_conn_id="gcp", #ชื่อของ Connection ID สำหรับการเชื่อมต่อกับ Google Cloud Platform ที่ต้องการใช้งาน
-        mime_type="text/csv" #ระบุประเภทไฟล์
+        src="/home/airflow/dataset/retail.csv", 
+        dst='raw/retail.csv',
+        bucket= GCP_BUCKET_NAME,
+        gcp_conn_id="gcp",
+        mime_type="text/csv"
     )
 
     create_retail_dataset = BigQueryCreateEmptyDatasetOperator(
