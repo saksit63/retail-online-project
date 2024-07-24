@@ -19,6 +19,6 @@ dbt models: [models](https://github.com/saksit63/retail-project/tree/main/dbt_pr
 dbt tests: [tests](https://github.com/saksit63/retail-project/tree/main/dbt_project/tests)
 
 
-# Result
+## Result
 Bigquery:
 Dashbord: 
