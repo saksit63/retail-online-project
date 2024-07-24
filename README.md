@@ -1,6 +1,6 @@
 # End-to-End Retail ETL Pipeline
 
-เทคโนโลยีที่ใช้: *Python, Apache Airflow, Docker, DBT, Google Cloud Storage, Google Cloud Bigquery, Google Looker Studio*
+Technology used: *Python, Apache Airflow, Docker, DBT, Google Cloud Storage, Google Cloud Bigquery, Google Looker Studio*
 
 ![Data Pipeline Diagram](https://github.com/saksit63/retail-project/blob/main/img/retail.png)
 
