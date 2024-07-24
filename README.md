@@ -1,4 +1,4 @@
-# ออกแบบและพัฒนาระบบ ETL แบบ end-to-end ข้อมูลค้าปลีกออนไลน์
+# End-to-End Retail ETL Pipeline
 
 เทคโนโลยีที่ใช้: *Python, Apache Airflow, Docker, DBT, Google Cloud Storage, Google Cloud Bigquery, Google Looker Studio*
 
