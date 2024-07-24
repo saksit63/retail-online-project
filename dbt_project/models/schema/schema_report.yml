@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: report_customer_invoice
+    columns:
+      - name: country
+        data_tests:
+          - not_null

@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: dim_customer
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+          - unique
+  - name: dim_datetime
+    columns:
+      - name: datetime_id
+        data_tests:
+          - unique
+          - not_null
+  - name: dim_product
+    columns: 
+      - name: product_id
+        data_tests:
+          - not_null
+          - unique
+  - name: fct_invoices
+    columns:
+      - name: invoice_id
+        data_tests:
+          - not_null
+

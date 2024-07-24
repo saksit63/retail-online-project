@@ -1,0 +1,9 @@
+version: 2
+#สามารถ quality test data ในนี้ได้
+sources:
+  - name: retail_project #dataset name
+    database: ornate-chemist-425808-e2 #project id
+
+    tables: 
+      - name: raw_invoices
+      - name: country
