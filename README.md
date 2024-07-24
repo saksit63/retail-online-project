@@ -2,7 +2,7 @@
 
 Technology used: *Python, Apache Airflow, Docker, DBT, Google Cloud Storage, Google Cloud Bigquery, Google Looker Studio*
 
-![Data Pipeline Diagram](https://github.com/saksit63/retail-project/blob/main/img/retail.png)
+![Data Pipeline Diagram](https://github.com/saksit63/retail-project/blob/main/img/retail_workflow.png)
 
 ## Process
 1. นำข้อมูลการแสดงความคิดของลูกค้าจากไฟล์ CSV และข้อมูลการซื้อขายจากฐานข้อมูล MySQL ไปยัง Google Cloud Storage (GCS)
