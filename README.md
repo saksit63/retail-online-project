@@ -22,13 +22,13 @@ dbt tests: [tests](https://github.com/saksit63/retail-project/tree/main/dbt_proj
 ## Result
 Airflow:
 
-https://github.com/saksit63/retail-project/blob/main/result/Airflow_Task_Run.png
+![Airflow](https://github.com/saksit63/retail-project/blob/main/result/Airflow_Task_Run.png)
 
 Bigquery:
 
 ![Bigquery](https://github.com/saksit63/retail-project/blob/main/result/bigquery.png)
 
-Dashbord: 
+Dashboard: 
 
-https://github.com/saksit63/retail-project/blob/main/result/retail_dash
+![Dashboard](https://github.com/saksit63/retail-project/blob/main/result/retail_dash)
 
