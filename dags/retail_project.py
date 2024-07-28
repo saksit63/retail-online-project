@@ -10,7 +10,7 @@ from cosmos.config import ProjectConfig, ProfileConfig
 from cosmos.constants import LoadMode
 from cosmos.config import RenderConfig
 
-GCP_BUCKET_NAME = "test_bucket_saksit"
+GCP_BUCKET_NAME = 'project-etl-saksit'
 GCP_PROJECT_NAME = 'ornate-chemist-425808-e2'
 GCP_DATASET_NAME = 'retail_project'
 GCP_TABLE_NAME = 'raw_invoices'
