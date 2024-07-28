@@ -30,5 +30,5 @@ Bigquery:
 
 Dashboard: 
 
-![Dashboard](https://github.com/saksit63/retail-project/blob/main/result/retail_dash)
+![Dashboard](https://github.com/saksit63/retail-project/blob/main/result/retail_dashboard.png)
 
