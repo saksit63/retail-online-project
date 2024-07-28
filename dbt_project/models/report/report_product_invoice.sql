@@ -1,4 +1,4 @@
--- เลือก 10 product ที่ขายได้จำนวนมากที่สุด
+-- เลือก 10 product ที่ขายได้มากที่สุด
 SELECT
   dim_product.product_id,
   dim_product.stock_code,
